@@ -23,9 +23,9 @@ export interface RequestContext {
 }
 
 export interface GraphcoolContext {
-  pat: string
+  pat?: string
   projectId: string
-  alias: string
+  alias?: string
   // region: 'eu-west-1' | 'us-west-2'
   // serverEndpoint: string
 }
