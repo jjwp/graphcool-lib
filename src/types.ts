@@ -9,11 +9,11 @@ export interface FunctionEvent {
 }
 
 export interface Context {
-  request: RequestContext
+  request?: RequestContext
   graphcool: GraphcoolContext
-  environment: any
-  auth: AuthContext
-  sessionCache: any
+  environment?: any
+  auth?: AuthContext
+  sessionCache?: any
 }
 
 export interface RequestContext {
